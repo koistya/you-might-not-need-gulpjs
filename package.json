@@ -1,0 +1,11 @@
+{
+  "name": "you-might-not-need-gulpjs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "start": "node ./scripts/start.js",
+    "deploy": "node ./scripts/deploy.js",
+    "deploy-prod": "node ./scripts/deploy.js --prod"
+  }
+}
